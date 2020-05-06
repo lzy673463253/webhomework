@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-04-08 18:48:34
+ * @version $Id$
+ */
+ body{
+ 	margin: 0;
+ }
+
+.g-index{
+	width: 634px;
+	height: 404px;
+	border: solid thick #8E8E8E;
+	border-width: 1px;
+	padding: 8px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.ct{
+	width: 206px;
+	height: 195px;
+	background: #eee;
+	border: solid thick #8E8E8E;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title{
+	padding-left: 6px;
+	font-size: 9px;
+}
+
+.title-dp{
+	padding-left: 6px;
+	font-size: 9px;
+	display: flex;
+	flex-direction: row;
+}
+
+.title-dp-red{
+	color: red;
+}
+
+.title-dp-grey{
+	color: grey;
+}
+
+.pr{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+.pr-lf{
+	width: 70px;
+	height: 20px;
+	padding-left: 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.pr-sg{
+	color: red;
+	font-size: 12px;
+}
+
+.pr-newpr{
+	color: red;
+	font-size: 18px;
+}
+
+.pr-oldpr{
+	padding-left: 5px;
+	color: grey;
+	font-size: 10px;
+}
+
+.pr-num{
+	color: red;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.pr-te{
+	color: grey;
+	font-size: 10px;
+}
+
+.pr-ri{
+	width: 130px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: baseline;
+}

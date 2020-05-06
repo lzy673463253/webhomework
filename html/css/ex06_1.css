@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-04-08 17:04:22
+ * @version $Id$
+ */
+ body{
+ 	margin: 0;
+ }
+.g-index{
+	width: 760px;
+	height: 560px;
+	padding: 20px;
+	background: #eee;
+}
+
+.m-nv{
+	height: 80px;
+	padding: 20px;
+	background: #00A600;
+	display: flex;
+	flex-direction: row;
+}
+
+.m-nv>div{
+	width: 80px;
+	background: #7373B9;
+	margin-right: 40px;
+}
+
+.m-nv>div:nth-child(5){
+	margin-right: 0;
+	margin-left: 160px;
+}
+
+.ct{
+	padding: 20px;
+	background: #00A600;
+	margin-top: 20px;
+	width: 720px;
+	height: 380px;
+	display: flex;
+}
+
+.left{
+	width: 200px;
+	margin-right: 40px;
+}
+
+.left-top{
+	width: 200px;
+	height: 300px;
+	background: #7373B9;
+	margin-bottom: 20px;
+}
+
+.left-bot{
+	display: flex;
+}
+
+.left-bot>div{
+	width: 50px;
+	height: 50px;
+	background: #7373B9;
+	margin-right: 25px;
+}
+
+.left-bot>div:nth-child(3){
+	margin: 0;
+}
+
+.right{
+	height: 370px;
+	width: 480px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.right>div{
+	height: 40px;
+	background: #7373B9;
+}

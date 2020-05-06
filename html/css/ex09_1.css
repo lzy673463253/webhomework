@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-04-29 22:09:25
+ * @version $Id$
+ */
+
+body{
+	background: #f1f0ee;
+}
+
+header>.row{
+	padding-top: 10px;
+	background: #00c2ae;
+	box-shadow: 0 2px #00a296;
+	display: flex;
+}
+
+.m-city{
+	font-size: 14px;
+	color: #fff;
+}
+
+
+header>.row>div>input{
+	background: #00a594;
+	border:0;
+	width: 100%;
+	border-radius: 3px;
+	padding:0 0 0 32px;
+	color: #fff;
+	outline: unset;
+}
+
+.m-search{
+	padding-left: 0;
+}
+.m-search>i{
+	position: absolute;
+	left: 7px;
+	top: 4px;
+	color: #fff;
+}
+
+.m-usr{
+	display: flex;
+	font-size: 10px;
+	padding-left: 3px;
+	flex-wrap: wrap;
+	color: #fff;
+}
+
+.m-usr>i{
+	padding-left: 2px;
+}
+
+.m-circle{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 10px 17px 10px 17px;
+}
+
+.m-circle>span{
+	color: #9f9f9f;
+}
+
+section{
+	background: #fff;
+}
+
+.m-color{
+    padding-bottom: 10px;
+    box-shadow: 0 2px #e7e1da;
+    margin-bottom: 10px;
+}
+
+.m-square{
+	padding: 10px 0px 10px 0;
+	border-top: 2px solid #e7e1da;
+	border-bottom: 2px solid #e7e1da;
+	margin-bottom: 15px;
+}
+
+.m-square-row-top{
+	width: 100%;
+}
+
+.m-square>.m-square-row-top>.col-4{
+	padding:10px 0px 0px 30px;
+	height: 160px;
+	border-right: 1px solid #e9e3dc;
+}
+
+.m-square>.m-square-row-top>.col-8{
+	padding-right: 0;
+}
+
+.m-square>.m-square-row-top>.col-8>.row>div>span:nth-child(1){
+	font-weight: bold;
+	color: #ff4e1f;
+}
+
+.m-square>.m-square-row-top>.col-8>.row>div>span:nth-child(2){
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.m-square>.m-square-row-top>.col-8>.row:nth-child(1){
+	height: 80px;
+	border-bottom: 1px solid #e9e3dc;
+}
+
+.m-square>.m-square-row-top>div>span:nth-child(2){
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.m-square>.m-square-row-top>.col-4>span:first-child{
+	font-weight: bold;
+	color: #00ac00;
+}
+
+.m-square>.row>div>.fa-square{
+	color: #656565;
+}
+
+.m-square>.row>div>.row>div>.fa-square{
+	color: #656565;
+}
+
+
+.square-3x>.col-6{
+	border-right: 1px solid #e9e3dc;
+}
+
+.square-3x>.col-6>.left-top:nth-child(1){
+	margin-left: 1px;
+	color: #ff56ad;
+	font-weight: bold;
+}
+
+.square-3x>.col-6>.left-bottom:nth-child(2){
+	color: #656565;
+	margin-left: 30px;
+}
+
+.square-3x>.col-6>.right-top:nth-child(1){
+	color: #ff9f31;
+	font-weight: bold;
+}
+
+.square-3x>.col-6>.right-center:nth-child(2){
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.square-3x>.col-6>.right-bottom>span{
+	background: #4b4b4b;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 14px;
+	height: 20px;
+}
+
+
+.square-3x>.col-6:nth-child(2){
+	padding-left: 30px;
+}
+
+.square-co{
+	border-top: 2px solid #e7e1da;
+	border-bottom: 2px solid #e7e1da;
+	margin-bottom: 15px;
+}
+
+.square-co>div:nth-child(2){
+	border-right: 1px solid #e7e1da;
+}
+
+.square-co>div:nth-child(1)>span:nth-child(1){
+	color: #ff7755;
+	font-weight: bold;
+}
+
+.square-co>div>span:nth-child(2){
+	color: #9f9f9f;
+	font-size: 12px;
+}
+
+.square-co>div>i{
+	color: #656565;
+}
+
+.square-co>div:nth-child(3)>span:nth-child(1){
+	color: #ffab28;
+	font-weight: bold;
+}
+
+.list{
+	border-top: 2px solid #e7e1da;
+	border-bottom: 2px solid #e7e1da;
+	padding: 5px;
+}
+
+.list-title{
+	margin: 0 5px 0 5px;
+	border-bottom: 1px solid #e7e1da;
+}
+
+.list-cont{
+	margin: 10px 5px 10px 5px;
+	padding-bottom: 5px;
+	position: relative;
+	border-bottom: 1px solid #e7e1da;
+}
+
+.list-cont>.col-3,.col-6,.col-2{
+	padding: 0;
+}
+
+.list-cont>.col-3>i{
+	color: #656565;
+}
+
+.list-cont>.col-6>.row:nth-child(2){
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.list-cont>.col-6>.row:nth-child(3)>div{
+	padding: 0;
+}
+
+.price{
+	color: #00c8b6;
+	font-weight: bold;
+}
+
+.price-chi{
+	margin: -5px;
+	color: #00c8b6;
+	font-size: 12px;
+}
+
+.discount{
+	border: 1px solid #ffab28;
+	border-radius: 3px;
+	font-size: 12px;
+	color: #ffab28;
+}
+
+.cost{
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.num{
+	font-size: 12px;
+	color: #9f9f9f;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+footer{
+	padding-top: 3px;
+	font-weight: bold;
+	height: 30px;
+	background: #8fc6eb;
+	color: #00b8d9;
+}

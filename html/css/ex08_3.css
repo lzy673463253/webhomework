@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2020-04-23 04:05:03
+ * @version $Id$
+ */
+
+body{
+	margin: 5px;
+}
+
+.g-main{
+	border: 1px solid #000;
+	width: 600px;
+	height: 400px;
+	background: #eee;
+}
+
+.g-main>.list{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 95%;
+	height: 80%;
+	background: #fff;
+}
+
+.g-main>.list>.list-cont{
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.g-main>.list>.list-cont>.list-cont-xh{
+	border: 1px solid #000;
+	width: 50px;
+	text-align: center;
+}
+
+.g-main>.list>.list-cont>.list-cont-text{
+	border: 1px solid #000;
+	border-left: 0px;
+	width: 300px;
+}
+
+.delete{
+	margin-left: 40px;
+}
+
+.add{
+	margin: 15px;
+	float: right;
+	width: 100px;
+	height: 40px;
+	background: #98FB98;
+	border-radius: 15px;
+}

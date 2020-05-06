@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+body{
+	width: 1000px;
+	padding: 5px;
+}
+
+.m-tl>.ui-grid-2,.m-tl>.ui-grid-21{
+	margin-bottom: 0;
+}
+
+.m-tl.ui-grid-row{
+	border-bottom: 5px solid #006699;
+	width: 1000px;
+}
+
+header>.m-tl>.m-tab>span{
+	background: #006699;
+	color: #fff;
+	padding: 4px 10px 3px;
+	border-radius: 3px 3px 0 0;
+	display: block;
+	text-align: center;
+	width: 80%;
+}
+
+header>.m-tl>.m-tip>span{
+	background: #ff6600;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 15px;
+	border-radius: 3px;
+	text-align: center;
+}
+
+header>.m-tl>.m-fun{
+	margin-right: 0;
+}
+
+header>.m-tl>.m-fun>span{
+	border: 1px solid #ccc;
+	color: #006699;
+	padding: 2px 7px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+header>.bd>.bd-info{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background:  #eee;
+	height: 48px;
+}
+
+.bd-info>.ui-grid-4{
+	margin-left: 10px;
+}
+
+.bd-info-redbold{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.bd-info-textgrey{
+	color: #4F4F4F;
+	font-size: 13px;
+}
+
+.bd-info-textred{
+	color: red;
+	font-size: 13px;
+}
+
+.bd-info-textblack{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+header>.bd>.bd-info>.bd-info-sum{
+	margin-top: 3px;
+}
+
+
+header>.bd>.bd-opt{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background:  #F5F6CE;
+	height: 23px;
+}
+
+a{
+	color: blue;
+	text-decoration: underline;
+}
+
+header>.bd>.bd-opt>.bd-opt-cont{
+	text-align: right;
+	margin-right: 0;
+}
+
+section>.ui-grid-12,.ui-grid-3,.ui-grid-4.ui-grid-1,.ui-grid-8,.ui-grid-10{
+	margin-bottom: 0;
+}
+
+section{
+	margin-top: 8px;
+}
+
+section>.table-tl>div{
+	color: #46a3ff;
+	background: #c4e1ff;
+	border-right: 2px solid #fff;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+section>.table-way-grey{
+	border: 1px solid #ccc;
+
+	height: 40px;
+	background: #eee;
+}
+
+section>.table-way-grey>div{
+	margin-right: 9px;
+	height: 22px;
+	background: #eee;
+}
+
+.table-way-grey-pla{
+	font-size: 15px;
+}
+.table-way-grey-wea{
+	margin-top: 4px;
+}
+
+.table-way-grey-a{
+	text-align: right;
+}
+
+.table-way-grey-time{
+	text-align: center;
+}
+
+section>.table-way-white{
+	height: 40px;
+}
+
+
